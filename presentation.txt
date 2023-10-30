@@ -1,0 +1,354 @@
+                                                                                         TEXT FILE FOR PPT
+
+
+                                                                                              Objective of the project
+       
+  1-  object identification and recognition of the object .
+
+  2-  To have an estimated the distance of the object.
+
+  3-  Generating Audio Output for the Blind.
+   
+  4-   Accessing Live Location Information for the Blind.
+
+  5-  A weather report that provides factual information about the current weather conditions of forcast for the day.
+
+  6- To work out some suitable packages to the complete project which can be easily carried out.
+
+
+
+
+
+
+                                                                                               Needs of proposed work
+
+
+ In 2015, there were an estimated 253 million people with visual impairment worldwide. Of these, 36 million were blind and a further 217 million had 
+moderate to severe visual impairment (MSVI). The prevalence of people that have distance visual impairment is 3.44%, of whom 0.49% are blind and 2.95% have MSVI. A further 1.1 billion people are estimated to have functional presbyopia.Of the 253 million people in the world who are visually impaired, 55% are women (139 million). A number of factors contribute to this gender imbalance, including the longer life expectancy of women compared with that of men, which means that there are more women in those age groups 
+associated with a higher risk of developing a sight-threatening eye condition .
+
+Object detection :
+
+Obstacle Avoidance: Object detection helps blind individuals identify and avoid obstacles in their path, such as walls,
+ furniture, or people. This is crucial for preventing accidents and ensuring safe navigation.
+
+Environmental Awareness: It provides information about the environment, allowing users to understand their 
+surroundings better. This includes detecting doorways, stairs, and other important landmarks.
+
+Distance Measurement:
+
+Safe Navigation: Knowing the distance to nearby objects or obstacles enables individuals to navigate safely, especially in crowded or unfamiliar environments.
+
+Spatial Awareness: Distance measurement provides spatial awareness, which helps blind individuals understand the layout of their surroundings and make
+ informed decisions about their route.
+
+GPS Navigation:
+
+Wayfinding: GPS navigation helps blind individuals plan and follow routes to specific destinations. This can be invaluable for 
+independently traveling to work, school, or other places.
+
+Location Awareness: GPS provides real-time information about the user's location, allowing them to explore new areas with confidence.
+
+Public Transportation: GPS can assist in using public transportation, guiding users to bus stops, train stations, and other transit options.
+
+Combining object detection, distance measurement, and GPS navigation into a comprehensive assistive technology solution can significantly improve the mobility and
+ quality of life for blind individuals. Such systems often utilize wearable devices or smartphones with specialized apps and sensors, including cameras, LiDAR,
+ and GPS receivers. These technologies work together to provide auditory or haptic feedback to users, helping them navigate their environment safely and independently.
+
+
+
+
+
+
+                                                                                                               Introduction 
+
+
+ Several deep learning techniques have been recently  enhanced object detection models. Object detection is a  computer vision filed that concentrates on detecting the 
+position of multiple objects in an image that has been used in several applications from biomedicine and agriculture to security. However, traditional object detection methods have been successfully applied to solve problems like face detection, or pedestrian detection. However, those methods are suffering from slow, lack the notion of aspect ratio and are error prone. These problems have been greatly overcome using deep learning methods.
+
+For the development of the world around, it is quite difficult for a visually impaired person to move around independently and identify surrounding objectives correctly with ease. With the advancement of technology, there are 
+several solutions but most of them have demerits such as low acceptance, high cost, difficult to usage etc.
+
+Percentage of persons with disabilities in society, especially those with visual disabilities (blind) are estimated to be 1.5 % of the Indian population. As per the survey report, the maximum prevalence of blindness was seen in the age group of above 80 (11.6%), followed by 70-79 age group (4.1%), 60-69 age group (1.6%), and 50-59 age group (0.5%) [6]. 
+The survey noted that most of the blindness (92.9%) and visual impairment (96.2%) cases were due to avoidable causes. These people face many difficulties in doing chores in day-to-day life. They are unable to find things and are also at a high risk of tripping over things and getting injured. 
+
+ In 2015, there were an estimated 253 million people with visual impairment worldwide. Of these, 36 million were blind and a further 217 million had 
+moderate to severe visual impairment (MSVI). The prevalence of people that have distance visual impairment is 3.44%, of whom 0.49% are blind and 2.95% have MSVI.
+ A further 1.1 billion people are estimated to have functional presbyopia.
+
+Of the 253 million people in the world who are visually impaired, 55% are women (139 million). A number of factors contribute to this gender 
+imbalance, including the longer life expectancy of women compared with that of men, which means that there are more women in those age groups 
+associated with a higher risk of developing a sight-threatening eye condition .
+
+
+                
+
+
+                                                                                                          Literature Review 
+
+
+ Some of the existing and relevant works that were done in the field of aid for blind for visually impaired people are given in this section : 
+
+
+             Real-Time Objects Recognition Approach for Assisting Blind People [1]
+
+In this paper, two cameras are placed on blind person's glasses along with it, GPS free service and ultra-sonic sensor are  employed to provide the necessary information
+ about the surrounding environment. A dataset of objects gathered from  daily scenes is created to use the specified recognition. Objects detection is used to seek out objects within the real world from a picture of the world like faces, bicycles, chairs, doors, or tables that are common in the scenes of a blind. 
+The two cameras are necessary to get the depth by creating the disparity map of the scene, GPS service is employed to make groups of objects based on their locations, 
+and also the sensor is employed to detect any obstacle at a medium to long distance. The descriptor of the Speeded-Up Robust Features method is optimized to perform the recognition. The proposed method for the blind aims at expanding possibilities to people with vision loss to attain their full potential. 
+The experimental results reveal the performance of the proposed work in a real-time system. 
+
+               Review from refernece[2] 
+
+As of my last knowledge update in September 2021, the World Health Organization (WHO) is a specialized agency of the United Nations responsible
+for international public health. WHO provides leadership on international public health issues, sets standards and guidelines, conducts research,
+and offers technical assistance to countries in various health-related matters.
+
+Blindness prevalence varies significantly by region and can be influenced by factors such as access to healthcare, socioeconomic conditions,
+and the availability of preventive measures. Globally, the World Health Organization (WHO) estimated that approximately 253 million people were 
+visually impaired in 2015, with 36 million of them being blind. 
+This data may have changed since then, and the prevalence rates may vary in different parts of the world.
+
+
+         Voscal vision for visually impaired [3] 
+
+This project is a vision substitute system designed to assist blind people with autonomous navigation. Its working 
+concept is based on 
+‘image to sound’ conversion. The vision sensor captures the image in front of a blind user. This image is then fed to 
+MATLAB for processing. Process intuit processes the captured image and enhances the significant vision data. This processed image is then compared with the database
+ kept in a microcontroller. The processed information is then presented as a structured form of the acoustic signal and it is conveyed to the blind user using a set of earphones. Color information from the interested objects evaluated to determine the color of the object. The color output is informed to the blind user through headphones.
+
+          Electronic talking stick for the blind [4]
+
+Hsieh Chi-Sheng, in Electronic Walking System for the Blind [2], have developed an electronic talking stick which alerts the visually impaired about the obstacles in front of
+them. The system uses optical sensors to detect the obstacles, the detected signals are then converted into voice using a control circuit. The voice output is provided through earphones attached to the handle of the stick. The scanning device is designed to detect obstacles within a range of 1 metre.
+
+
+         Intelligent glasses for the visually impaired.[5]
+
+In Intelligent Glasses For The Visually Impaired [4], Humberto Orozeo Cervantes invented a system which describes the environment around a blind person using image analysis.
+Images are captured using a camera and sensor mounted on glasses, the images are sent to a remote server machine for analysis. The audio output is sent back to the users output device.
+
+
+
+
+                                                                                                       Refernces 
+
+1- Jamal S. Zraqou Wissam M. Alkhadourand Mohammad Z.Siam,“Real-Time Objects Recognition Approach for Assisting Blind People
+”,Multimedia Systems Department, Electrical Engineering Department, Isra University, Amman-Jordan, Vol.7,No.1. 
+
+2- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820628/#:~:text=The%20prevalence%20of%20people%20that,estimated%20to%20have%20functional%20presbyopia.
+
+
+3- Shrilekha Banger , Preetam Narkhede , Rajashree Parajape, “Voscal vision for visually impaired”, The International Journal Of Issn:2319– 1813 
+Isbn:2319–1805 Engineering And Science(Ijes)-01-07-2013 
+
+4-  Chi-Sheng, Hsieh. ”Electronic talking stick for the blind.” U.S. Patent No. 5,097,856, 24 Mar. 1992.
+
+5-  Cervantes, Humberto Orozco. ”Intelligent glasses for the visually impaired.” U.S. Patent No. 9,488,833. 8 Nov. 2016
+
+6- Akhila Merin Binu¹, Chinnu Kuruvilla², Sony Thomas³, Preena Prasad. "Real Time Indoor Object Detection Aid for Blind."  International Advanced Research Journal in Science, Engineering and Technology Vol. 8, Issue 6, June 2021
+
+
+
+
+                                                                                                                 Methodology
+
+
+
+
+   object identification and recognition of the object 
+
+
+Object Detection: Through computer vision techniques, the system identifies the presence of objects within the user's vicinity. It detects the shape, size, and
+ location of objects.
+
+Object Classification: The system classifies objects into categories, such as "chair," "door," "cup," or "person." 
+This classification helps in providing meaningful information to the user.
+
+
+
+                 To have an estimated the distance of the object 
+
+Real-time Updates: Provide real-time updates on the distance to objects, ensuring that the blind person receives immediate feedback as they move through their 
+environment.
+
+Multi-Modal Feedback: Offer distance information through multiple sensory modalities, such as auditory cues, haptic feedback (vibrations or tactile sensations), 
+and visual cues (if applicable), to cater to various user preferences.
+
+Obstacle Detection: Identify and alert the user to the presence of obstacles or hazards within a specified range, helping them avoid collisions or accidents.
+
+
+
+                  Generating Audio Output for the Blind
+
+   The objective of generating audio output for blind individuals is to provide them with accessible and informative auditory feedback that enhances their
+ understanding of the environment, 
+    facilitates communication, and promotes independent living. Here are specific objectives related to this statement:
+
+   Clear and Natural Speech Synthesis: Develop speech synthesis technology that produces clear and natural-sounding audio
+    output to ensure that information is conveyed accurately and intelligibly.
+
+
+                   Accessing Live Location Information for the Blind
+
+The objective of accessing live location information for blind individuals is to provide them with real-time, accurate,
+ and accessible data about their current whereabouts and nearby points of interest.
+
+
+
+                    a weather report that provides factual information about the current weather conditions of frocast for the day
+                                   
+     Temperature:
+
+State the current temperature in degrees Celsius (°C) or Fahrenheit (°F). You may also include the high and low temperatures for the day if relevant.
+Rain percentage is an important component of weather forecasts as it helps individuals and organizations plan their activities and make decisions based on the
+ likelihood of precipitation. It can be expressed as:
+
+0%: No chance of rain; dry conditions expected.
+10% to 30%: Low chance of rain; isolated or scattered showers possible.
+40% to 60%: Moderate chance of rain; showers or rain likely in some areas.
+70% to 100%: High chance of rain; widespread rain or thunderstorms expected.
+Keep in mind that rain percentage is a probabilistic measure and can change as weather conditions evolve. It's always a good idea to check the
+ latest weather updates for the most accurate information.                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                          IEEE PAPERS
+ Redmon, Joseph, et al. ”You only look once: Unified, real-time object
+detection.” Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition. 2016.
+
+
+ J. Redmon and A. Farhadi. Yolo9000: Better, faster, 
+stronger. In Computer Vision and Pattern 
+Recognition (CVPR), 2017 IEEE Conference on, 
+pages 6517–6525. IEEE, 2017
+
+
+Hanen Jabnoun, FaouziBenzarti ,HamidAmiri, ˆaVisual s
+ubstitution system for blind people based on SIFT
+descriptionaˆ, International Conference of Soft
+Computing and Pattern Recognition 2014 IEEE.
+
+
+Hanen Jabnoun, Faouzi Benzarti,and Hamid Amiri,
+ˆaObject recognition for blind people bsed on features
+extractionˆa IEEE IPASˆa14: INTERNATIONAL IMAGE
+PROCESSING APPLICATIONSAND SYSTEMS
+CONFERENCE 2014.
+
+
+ Esteban Bayro Kaiser, Michael Lawo,aˆWearable
+Navigation System for the Visually Impaired and Blind
+Peopleˆa, IEEE, 2012.
+
+.Zhigong Zhou ,Xiaosong Lan, Shuxioa Li, Chengfei Zhu, Hongxing Chang, “Feature Pyramid SSD: Outdoor Object Detection Algorithm for Blind 
+People”,in2019 IEEE 5th International Conference on Computer and Communications. 
+
+
+0. Prof. Radha Shankarmani, Sunit Vaidya, Niti Shah, Naisha Shah, “Real Time Object Detection for Visually Challenged People”, Proceedings of 
+the International Conference on Intelligent Computing and Control Systems (ICICCS2020 )IEEE Xplore. 
+
+Chen J Y, J Zhang, et al. Automatic detection and recognition of signs from natural scenes, IEEE 
+Trans. Image Process., January 2004 ;13: 87–99.
+
+] P. Viola & M. Jones (2001), “Rapid Object Detection using a Boosted Cascade of Simple Feature”, 
+Conference on Computer Vision and Pattern Recognition. IEEE Press, Pp. 511–518.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                      literature review 
+blind stick is an innovation stick  designed for visually disabled people for improved navigation.we here propose an advanced blind stick that allows visually challenged people to naviagte with ease using advanced technology. The blind stick is integrated with ultrasonic sensor along with motors. Our sensing obstacles is close enough. If the obstacle is not that close the circuit does nothing. If the obstacles is close the microcontroller sends a signal to the rotate the motor which is turn rotates the wheel when obstacle is detected so that theblind will not get frustrated due to continouse alarming sound of buzer and he/she can navigate easily along the path. The system has one more advanced feature integrated to help the blind find stick if they kept it. A wireless RF based remote is used for this purpose. Pressing the remote button sounds a buzser on the stick which helps the blind person to find their stick. Thus this system allows for obstacle detection as well as finding stick if misplaced by visualy disabled people.
+  
+Reference:-
+ Manoj kumar, Rohit verma, Mukesh, Shekhar Singh, Er.Thakurendra Singh, "ULTRASONIC BASED SMART BLIND STICK FOR VISUALLY IMPAIRED PERSONS" Dept. of ECE, RBS Engineering Technical Campus Agra, Vol. 6 , Issue 3, March 2017
+
+
+
+
+
+The Smart Glass project that we have designed is to make the information more accessible and incorporate the human vision with technology. The designed system makes the infromation more access hands free. we have used Raspberry pi zero as a microprocessor. It is a single board computer which has a system on chip. On the input side of the raspberry pi, there is a camera unit which is used to take  the photos which is further processed by the raspberry pi. using this camera, person is able to capture the photo of the view he/she is currently viewing as the photos are taken from the sight of view of the person. The other input component is the microphone, which helps in calling purpose.
+
+Reference:-
+Er.Dhananjali Singh, Rohit Pathak, Sandeep Singh, Gaurav Mudgal, "SMART GLASS", Dept. of ECE, RBS Engineering Technical Campus Agra, Vol. 8 , Issue 5, May 2019
+
+
+
+
+In this the authors proposed a text detection and reading algorithm within images for using by blind that walking in natural scenes of the city. The proposed algorithm succeeded with high rate of around 90% on the test set of images within small unread text typically.
+
+Reference:-
+[3] Chen X, AL Yuille, "Detecting and reading text in natural scenes, in Proc. Computer. Vision Pattern Recognition, 2004
+
+
+
+
+
+This paper aims to investigate the development of a navigation system for blind and visually impaired people along with human identification. It is based on a microprocessor with synthetic speech output. This solution is designed to give details about humans whomever they encounter. It is a self-contained portable electronic unit. The proposed system detects any obstacle in the path of the blind via a stereoscopic sonar system using ultrasonic waves and sends back vibrotactile feedback to inform the blind about its localization. And if there is an obstacle and then the second system kicks in to check whether the obstacle is human or not and if proven human, it matches with the existing system database to find out the personal details and provide them to the user. Face Detection is an important step in any face recognition system, to localize and extract the face region from the rest of the images. The proposed system has been developed and its main goal is to increase the capability of blind individuals. The technique used here is a well know 
+name in imaging industries, where they reduce errors by using more advanced algorithms.
+
+Reference:-
+Dr.Sunitha M.R, Gowtham Ghatge R, Fathima Khan, Hemaya S Object Detection and Human Identification using Raspberry Pi [2019 1st 
+
+
+
+
+Hsieh Chi-Sheng, in Electronic Walking System for theBlind , have developed an electronic talking stick whichalerts the visually impaired about the obstacles in front of
+them. The system uses optical sensors to detect the obstacles,the detected signals are then converted into voice using acontrol circuit. The voice output is provided through earphonesattached to the handle of the stick. The scanning device isdesigned to detect obstacles within a range of 1 metre.
+
+Reference:-
+Chi-Sheng, Hsieh. ”Electronic talking stick for the blind.” U.S. Patent No. 5,097,856, 24 Mar. 1992 
+
+
+
+
+This project employs a Convolutional Neural Network for recognition of pre-trained objects on the ImageNet dataset. A camera, aligned with the systems pre-determined orientation,
+serves as input to a computer system, which has the object recognition Neural Network deployed to carry out real-time object detection. Output from the network can then be parsed to present to the visually impaired person in the form of  Braille text.
+
+Reference:-
+Kedar Potdar, Chinmay Pai and Sukrut Akolkar, ”A Convolutional Neural Network based Live Object Recognition System as Blind Aid”,  26 Nov 2018 
+

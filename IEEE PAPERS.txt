@@ -1,0 +1,39 @@
+                                                                                         IEEE PAPERS LISTS
+
+
+
+
+                                                                                         
+Redmon, Joseph, et al. ”You only look once: Unified, real-time object  detection.” Proceedings of the IEEE Conference on Computer Vision  and Pattern Recognition. 2016.
+
+
+ 
+J. Redmon and A. Farhadi. Yolo9000: Better, faster, stronger. In Computer Vision and Pattern Recognition (CVPR), 2017 IEEE Conference on, pages 6517–6525. IEEE, 2017
+
+
+
+ Hanen Jabnoun, FaouziBenzarti ,HamidAmiri, ˆa Visual substitution system for blind people based on SIFT descriptionaˆ, International Conference of Soft  Computing and Pattern Recognition 2014 IEEE.
+
+
+ Hanen Jabnoun, Faouzi Benzarti,and Hamid Amiri,ˆa Object recognition for blind people bsed on features extractionˆa IEEE IPASˆa14: INTERNATIONAL IMAGE PROCESSING APPLICATIONSAND SYSTEMS CONFERENCE 2014.
+
+
+
+ Esteban Bayro Kaiser, Michael Lawo,aˆWearable Navigation System for the Visually Impaired and Blind Peopleˆa, IEEE, 2012.
+
+ 
+Zhigong Zhou ,Xiaosong Lan, Shuxioa Li, Chengfei Zhu, Hongxing Chang, “Feature Pyramid SSD: Outdoor Object Detection Algorithm for Blind  People”,in2019 IEEE 5th International Conference on Computer and Communications. 
+
+
+
+ 0. Prof. Radha Shankarmani, Sunit Vaidya, Niti Shah, Naisha Shah, “Real Time Object Detection for Visually Challenged People”, Proceedings of  the International Conference on Intelligent Computing and Control Systems (ICICCS2020 )IEEE Xplore. 
+
+ 
+Chen J Y, J Zhang, et al. Automatic detection and recognition of signs from natural scenes, IEEE Trans. Image Process., January 2004 ;13: 87–99.
+
+ 
+ P. Viola & M. Jones (2001), “Rapid Object Detection using a Boosted Cascade of Simple Feature”, Conference on Computer Vision and Pattern Recognition. IEEE Press, Pp. 511–518.
+
+
+
+

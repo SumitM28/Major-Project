@@ -1,0 +1,10 @@
+https://ahmed-alturki.medium.com/real-time-object-detection-using-opencv-for-visually-impaired-people-9fcc84b927c
+
+https://www.ijraset.com/research-paper/blind-person-assistant-object-detection
+
+https://www.instructables.com/Object-Detection-on-Raspberry-Pi/
+
+
+https://docs.opencv.org/4.x/
+
+https://www.youtube.com/watch?v=WQeoO7MI0Bs
