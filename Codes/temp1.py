@@ -85,38 +85,38 @@
 
 
 
-import requests
-import geocoder
+# import requests
+# import geocoder
 
 # Replace 'YOUR_WEATHERSTACK_API_KEY' with your Weatherstack API key
-weatherstack_api_key = 'c845e2123ed0577865dcdd8919db632c'
+# weatherstack_api_key = 'c845e2123ed0577865dcdd8919db632c'
 
-def get_current_weather(api_key):
-    try:
-        g = geocoder.ip('me')
-        latitude, longitude = g.latlng
+# def get_current_weather(api_key):
+#     try:
+#         g = geocoder.ip('me')
+#         latitude, longitude = g.latlng
 
-        if latitude and longitude:
-            base_url = 'http://api.weatherstack.com/current'
-            params = {
-                'access_key': api_key,
-                'query': f"{latitude},{longitude}"
-            }
+#         if latitude and longitude:
+#             base_url = 'http://api.weatherstack.com/current'
+#             params = {
+#                 'access_key': api_key,
+#                 'query': f"{latitude},{longitude}"
+#             }
 
-            response = requests.get(base_url, params=params)
-            data = response.json()
-            location = data['location']['name']
-            temperature = data['current']['temperature']
-            weather_description = data['current']['weather_descriptions'][0]
-            print(f"Weather in {location}: {weather_description}")
-            print(f"Temperature: {temperature}°C")
-        else:
-            print("Could not determine your location.")
-    except Exception as e:
-        print(f"Error getting weather data: {e}")
+#             response = requests.get(base_url, params=params)
+#             data = response.json()
+#             location = data['location']['name']
+#             temperature = data['current']['temperature']
+#             weather_description = data['current']['weather_descriptions'][0]
+#             print(f"Weather in {location}: {weather_description}")
+#             print(f"Temperature: {temperature}°C")
+#         else:
+#             print("Could not determine your location.")
+#     except Exception as e:
+#         print(f"Error getting weather data: {e}")
 
-if __name__ == "__main__":
-    get_current_weather(weatherstack_api_key)
+# if __name__ == "__main__":
+#     get_current_weather(weatherstack_api_key)
 
 
 
